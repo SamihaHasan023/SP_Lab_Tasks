@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int a, b, c, larg=0;
+    scanf("%d %d %d", &a, &b, &c);
+    if(a>b && a>c){
+        larg=a;
+    }
+     else if(b>a && b>c){
+        larg=b;
+    }
+     else{
+        larg=c;
+     }
+     printf("Largest=%d",larg);
+     return 0;
+
+
+}
